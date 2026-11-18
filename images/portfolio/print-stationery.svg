@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#0B0B0B" />
+    </linearGradient>
+    <linearGradient id="goldFoil5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE099" />
+      <stop offset="50%" stop-color="#C6A66B" />
+      <stop offset="100%" stop-color="#8E7238" />
+    </linearGradient>
+    <filter id="shadow5" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bgGrad5)" />
+  <circle cx="500" cy="400" r="300" fill="#C6A66B" opacity="0.05" filter="blur(60px)" />
+
+  <!-- Stationery Showcase Surface -->
+  <g filter="url(#shadow5)" transform="translate(120, 90)">
+    <rect width="960" height="620" rx="16" fill="#1C1B19" stroke="#332F28" stroke-width="1.5" />
+    
+    <text x="50" y="55" font-family="sans-serif" font-size="18" font-weight="bold" fill="#F5F1E8">HORIZON PRINT & STATIONERY SUITE</text>
+    <text x="50" y="80" font-family="sans-serif" font-size="12" fill="#8C867B">مجموعة مطبوعات ورقية تشمل بطاقات أعمال ببصمة ذهبية، مغلفات، وأوراق مراسلات فاخرة</text>
+
+    <!-- Letterhead Paper (Left) -->
+    <g transform="translate(50, 110)">
+      <rect width="360" height="470" rx="4" fill="#F9F7F2" stroke="#E2DCD0" stroke-width="1" />
+      <!-- Letterhead details -->
+      <circle cx="50" cy="50" r="16" fill="url(#goldFoil5)" />
+      <text x="75" y="55" font-family="serif" font-size="14" font-weight="bold" fill="#111">HORIZON</text>
+      <line x1="40" y1="90" x2="320" y2="90" stroke="#E5DEC9" stroke-width="1.5" />
+      
+      <!-- Fake Text Lines on Letterhead -->
+      <line x1="40" y1="120" x2="300" y2="120" stroke="#D8D2C2" stroke-width="2" />
+      <line x1="40" y1="145" x2="310" y2="145" stroke="#D8D2C2" stroke-width="2" />
+      <line x1="40" y1="170" x2="280" y2="170" stroke="#D8D2C2" stroke-width="2" />
+      <line x1="40" y1="195" x2="320" y2="195" stroke="#D8D2C2" stroke-width="2" />
+      <line x1="40" y1="220" x2="250" y2="220" stroke="#D8D2C2" stroke-width="2" />
+      
+      <!-- Footer on letterhead -->
+      <line x1="40" y1="420" x2="320" y2="420" stroke="#E5DEC9" stroke-width="1" />
+      <text x="40" y="445" font-family="sans-serif" font-size="8" fill="#888">info@horizon-sample.com • Riyadh / Sanaa</text>
+    </g>
+
+    <!-- Envelope (Top Right) -->
+    <g transform="translate(450, 110)">
+      <rect width="450" height="230" rx="4" fill="#24221F" stroke="#3D372E" stroke-width="1.5" />
+      <!-- Flap Line -->
+      <path d="M0,0 L225,120 L450,0" fill="none" stroke="#3D372E" stroke-width="1.5" />
+      <circle cx="225" cy="120" r="14" fill="url(#goldFoil5)" />
+      <text x="40" y="195" font-family="serif" font-size="12" font-weight="bold" fill="url(#goldFoil5)">HORIZON ARCHIVES</text>
+      <text x="40" y="212" font-family="sans-serif" font-size="9" fill="#888">CONFIDENTIAL & OFFICIAL</text>
+    </g>
+
+    <!-- Two Luxury Business Cards (Bottom Right) -->
+    <!-- Card 1 (Dark Velvet + Gold Foil) -->
+    <g transform="translate(450, 370)">
+      <rect width="210" height="130" rx="6" fill="#141312" stroke="url(#goldFoil5)" stroke-width="1.5" />
+      <circle cx="40" cy="40" r="12" fill="url(#goldFoil5)" />
+      <text x="60" y="44" font-family="serif" font-size="11" font-weight="bold" fill="url(#goldFoil5)">HORIZON</text>
+      <text x="40" y="85" font-family="sans-serif" font-size="12" font-weight="bold" fill="#F5F1E8">م. أحمد الخدامي</text>
+      <text x="40" y="102" font-family="sans-serif" font-size="8" fill="#C6A66B">المدير العام والتنفيذي</text>
+    </g>
+
+    <!-- Card 2 (Warm Ivory Card) -->
+    <g transform="translate(680, 420)">
+      <rect width="210" height="130" rx="6" fill="#F5F1E8" stroke="#D8BC84" stroke-width="1.5" />
+      <text x="105" y="70" font-family="serif" font-size="18" font-weight="bold" fill="#141312" text-anchor="middle">H</text>
+      <text x="105" y="95" font-family="sans-serif" font-size="9" font-weight="bold" fill="#8E7238" text-anchor="middle" letter-spacing="3">HORIZON</text>
+    </g>
+  </g>
+
+  <!-- Concept Badge Overlay -->
+  <g transform="translate(150, 725)">
+    <rect width="180" height="32" rx="16" fill="#C6A66B" fill-opacity="0.15" stroke="#C6A66B" stroke-width="1" />
+    <circle cx="20" cy="16" r="4" fill="#00F0FF" />
+    <text x="35" y="21" font-family="sans-serif" font-size="12" font-weight="bold" fill="#C6A66B">عمل تجريبي • Concept Demo</text>
+  </g>
+</svg>

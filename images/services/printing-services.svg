@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="50%" stop-color="#191919"/>
+      <stop offset="100%" stop-color="#0E0E0E"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5CCA0"/>
+      <stop offset="50%" stop-color="#C6A66B"/>
+      <stop offset="100%" stop-color="#94743C"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C6A66B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#C6A66B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <circle cx="800" cy="500" r="550" fill="url(#goldGlow)"/>
+  <path d="M0,100 L1600,100 M0,900 L1600,900 M100,0 L100,1000 M1500,0 L1500,1000" stroke="#2A2A2A" stroke-width="1" opacity="0.4"/>
+
+  <g filter="url(#subtleShadow)">
+    <polygon points="800,200 1180,360 800,520 420,360" fill="#222222" stroke="#C6A66B" stroke-width="1.5"/>
+    <polygon points="420,360 800,520 800,800 420,640" fill="#1A1A1A" stroke="#2E2E2E" stroke-width="1.5"/>
+    <polygon points="800,520 1180,360 1180,640 800,800" fill="#161616" stroke="#2E2E2E" stroke-width="1.5"/>
+    <polygon points="750,225 850,265 850,500 750,460" fill="url(#goldGrad)" opacity="0.85"/>
+    <circle cx="610" cy="500" r="45" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+    <text x="610" y="506" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="12" font-weight="700" fill="#C6A66B" letter-spacing="2">PRINT FINISH</text>
+  </g>
+</svg>

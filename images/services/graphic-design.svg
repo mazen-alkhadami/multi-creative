@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="50%" stop-color="#191919"/>
+      <stop offset="100%" stop-color="#0E0E0E"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5CCA0"/>
+      <stop offset="50%" stop-color="#C6A66B"/>
+      <stop offset="100%" stop-color="#94743C"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C6A66B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#C6A66B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <circle cx="800" cy="500" r="550" fill="url(#goldGlow)"/>
+  <path d="M0,100 L1600,100 M0,900 L1600,900 M100,0 L100,1000 M1500,0 L1500,1000" stroke="#2A2A2A" stroke-width="1" opacity="0.4"/>
+
+  <g filter="url(#subtleShadow)">
+    <rect x="340" y="220" width="480" height="560" rx="8" fill="#1C1C1C" stroke="#2E2E2E" stroke-width="2"/>
+    <rect x="860" y="220" width="400" height="560" rx="8" fill="#222222" stroke="#2E2E2E" stroke-width="2"/>
+    <line x1="820" y1="220" x2="820" y2="780" stroke="#C6A66B" stroke-width="3" opacity="0.7"/>
+    <g transform="translate(500, 380) scale(0.6)">
+      <rect x="20" y="0" width="36" height="160" rx="18" transform="rotate(45, 38, 80)" fill="url(#goldGrad)"/>
+      <rect x="80" y="0" width="36" height="160" rx="18" transform="rotate(45, 98, 80)" fill="url(#goldGrad)"/>
+      <polygon points="-20,130 -10,120 0,130 -10,140" fill="url(#goldGrad)"/>
+    </g>
+    <text x="580" y="570" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="22" font-weight="700" fill="#F5F1E8" letter-spacing="4">MULTI CREATIVES</text>
+    <text x="580" y="605" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="500" fill="#C6A66B" letter-spacing="3">GRAPHIC &amp; BRAND DESIGN MANUAL</text>
+    <rect x="910" y="290" width="140" height="10" rx="3" fill="#C6A66B" opacity="0.7"/>
+    <rect x="910" y="330" width="300" height="6" rx="3" fill="#333333"/>
+    <rect x="910" y="350" width="260" height="6" rx="3" fill="#333333"/>
+    <rect x="910" y="370" width="280" height="6" rx="3" fill="#333333"/>
+    <rect x="910" y="420" width="70" height="70" rx="8" fill="#111111" stroke="#C6A66B" stroke-width="1.5"/>
+    <rect x="995" y="420" width="70" height="70" rx="8" fill="#C6A66B"/>
+    <rect x="1080" y="420" width="70" height="70" rx="8" fill="#F5F1E8"/>
+  </g>
+</svg>

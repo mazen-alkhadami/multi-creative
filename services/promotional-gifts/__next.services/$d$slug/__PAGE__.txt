@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+3:"/_next/static/chunks/26b_2909f32gg.js"
+4:"/_next/static/chunks/18ljwzv_wwvij.js"
+5:"ClientLayoutShell"
+6:I[50143,["$3","$4"],"$5"]
+7:I[39756,["$3","$4"],"default"]
+8:I[37457,["$3","$4"],"default"]
+:HL["/_next/static/chunks/1f--7p_jw9-ku.css","style"]
+2:T454,{"@context":"https://schema.org","@graph":[{"@type":"ProfessionalService","@id":"https://multicreatives.com/#service","name":"MULTI CREATIVES","alternateName":"ملتي كريتيفز","url":"https://multicreatives.com","logo":"https://multicreatives.com/images/logo-original.png","description":"Creative and digital services delivering responsive websites, custom web applications, software systems, visual identity design, printing, and promotional gifts.","telephone":"+967779628873","email":"mazenalkhadami123@gmail.com","areaServed":["Saudi Arabia","Yemen"],"knowsAbout":["Website Design & Development","Web Applications Development","Software & Systems Development","AI & Automation Solutions","Graphic Design","Printing Services","Promotional Gifts"],"sameAs":["https://www.instagram.com/l.i9iil/","https://www.linkedin.com/in/mazen-alkhadami-10b08828b","https://github.com/mazen-alkhadami"]},{"@type":"WebSite","@id":"https://multicreatives.com/#website","url":"https://multicreatives.com","name":"MULTI CREATIVES","publisher":{"@id":"https://multicreatives.com/#service"},"inLanguage":["ar","en"]}]}c:X
+13:X
+13:C
+14:[["children",{"s":"__PAGE__","h":160,"d":{"r":"$L15","p":"$@16","v":null,"s":"$c"}}]]
+10:[["children",{"s":{"n":"slug","t":"d","k":"promotional-gifts","s":[]},"h":96,"d":{"r":"$L11","p":"$@12","v":"$13","s":"$c"},"c":"$Q14"}]]
+d:[["children",{"s":"services","h":96,"d":{"r":"$Le","p":"$@f","v":null,"s":"$c"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1f--7p_jw9-ku.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/26b_2909f32gg.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/18ljwzv_wwvij.js","async":true}]],["$","html",null,{"lang":"ar","dir":"rtl","className":"-kkK0G_variable _yqjJq_variable dark","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#111111"}],["$","meta",null,{"name":"apple-mobile-web-app-capable","content":"yes"}],["$","meta",null,{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["$","link",null,{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  var savedTheme = localStorage.getItem('mc_theme');\n                  var theme = savedTheme === 'light' ? 'light' : 'dark';\n                  document.documentElement.classList.add(theme);\n                  document.documentElement.classList.remove(theme === 'dark' ? 'light' : 'dark');\n                  document.documentElement.setAttribute('data-theme', theme);\n\n                  var savedLang = localStorage.getItem('mc_lang');\n                  var lang = savedLang === 'en' ? 'en' : 'ar';\n                  document.documentElement.setAttribute('lang', lang);\n                  document.documentElement.setAttribute('dir', lang === 'en' ? 'ltr' : 'rtl');\n                } catch(e) {}\n              })();\n            "}}]]}],["$","body",null,{"className":"antialiased min-h-screen","children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],"$L9","$La"]}]}]],[]]}]}]}]]}]]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":"$L17","p":"$@18","v":null,"s":"$c"}},"a":"$@19","u":"$@1a","b":"LoAkODvn1vrg9uQW81k-M"}
+1b:"/_next/static/chunks/1lgs0u-rehycr.js"
+1c:"/_next/static/chunks/3ceb4kb6iysxn.js"
+1d:"ServiceDetailView"
+1e:I[1190,["$3","$4","$1b","$1c"],"$1d"]
+1f:I[97367,["$3","$4"],"OutletBoundary"]
+20:"$Sreact.suspense"
+22:"ViewportBoundary"
+23:I[97367,["$3","$4"],"$22"]
+24:"MetadataBoundary"
+25:I[97367,["$3","$4"],"$24"]
+26:I[27201,["$3","$4"],"IconMark"]
+9:["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}]
+a:["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]
+e:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}]
+11:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}]
+15:["$","$1","c",{"children":[["$","$L1e",null,{"slug":"promotional-gifts"}],[["$","script","script-0",{"src":"/_next/static/chunks/1lgs0u-rehycr.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3ceb4kb6iysxn.js","async":true}]],["$","$L1f",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]]}]
+17:["$","$1","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$20",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"الهدايا الدعائية | Promotional Gifts"}],["$","meta","1",{"name":"description","content":"نبتكر ونوفر مجموعات هدايا دعائية وتنفيذية مخصصة، مصممة بأعلى معايير الذوق والأناقة، لتكون سفيراً راقياً لعلامتك التجارية في المناسبات والمؤتمرات الكبرى."}],["$","meta","2",{"name":"author","content":"MULTI CREATIVES"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"MULTI CREATIVES,ملتي كريتيفز,تصميم مواقع,تطوير مواقع,تطبيقات ويب,برمجيات وأنظمة,ذكاء اصطناعي وأتمتة,تصميم جرافيكي,هويات بصرية,خدمات طباعة,هدايا دعائية"}],["$","meta","5",{"name":"creator","content":"MULTI CREATIVES"}],["$","link","6",{"rel":"canonical","href":"https://multicreatives.com/services"}],["$","meta","7",{"property":"og:title","content":"الهدايا الدعائية — MULTI CREATIVES"}],["$","meta","8",{"property":"og:description","content":"نبتكر ونوفر مجموعات هدايا دعائية وتنفيذية مخصصة، مصممة بأعلى معايير الذوق والأناقة، لتكون سفيراً راقياً لعلامتك التجارية في المناسبات والمؤتمرات الكبرى."}],["$","meta","9",{"property":"og:image","content":"https://multicreatives.com/images/services/promotional-gifts.svg"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"MULTI CREATIVES — الإبداع والحلول الرقمية المتكاملة"}],["$","meta","12",{"name":"twitter:description","content":"خدمات متخصصة في التصميم والإعلان، تطوير المواقع والتطبيقات، والبرمجيات والطباعة والهدايا الدعائية."}],["$","meta","13",{"name":"twitter:image","content":"https://multicreatives.com/images/logo-original.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","15",{"rel":"icon","href":"/images/logo-gold.png"}],["$","link","16",{"rel":"icon","href":"/icons/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","17",{"rel":"icon","href":"/icons/icon-512.png","sizes":"512x512","type":"image/png"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L26","19",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+21:null
+1a:true
+c:300
+c:C
+19:0
+12:"$undefined"
+f:"$undefined"
+18:"$undefined"
+16:"$undefined"
+b:"$undefined"

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="50%" stop-color="#191919"/>
+      <stop offset="100%" stop-color="#0E0E0E"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5CCA0"/>
+      <stop offset="50%" stop-color="#C6A66B"/>
+      <stop offset="100%" stop-color="#94743C"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C6A66B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#C6A66B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <circle cx="800" cy="500" r="550" fill="url(#goldGlow)"/>
+  <path d="M0,100 L1600,100 M0,900 L1600,900 M100,0 L100,1000 M1500,0 L1500,1000" stroke="#2A2A2A" stroke-width="1" opacity="0.4"/>
+
+  <g filter="url(#subtleShadow)">
+    <!-- VIP Gift Box & Artifact Suite -->
+    <rect x="340" y="240" width="920" height="520" rx="20" fill="#181818" stroke="#C6A66B" stroke-width="2"/>
+    <rect x="380" y="280" width="380" height="440" rx="12" fill="#202020" stroke="#333333"/>
+    <circle cx="570" cy="460" r="60" fill="#151515" stroke="url(#goldGrad)" stroke-width="2"/>
+    <text x="570" y="466" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="13" font-weight="700" fill="#C6A66B" letter-spacing="3">VIP GIFT</text>
+    <!-- Executive Accessories on Right -->
+    <rect x="800" y="280" width="420" height="120" rx="10" fill="#222222" stroke="#2E2E2E"/>
+    <rect x="800" y="420" width="420" height="130" rx="10" fill="#222222" stroke="#2E2E2E"/>
+    <rect x="800" y="570" width="420" height="150" rx="10" fill="#222222" stroke="#2E2E2E"/>
+    <text x="1010" y="345" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="14" font-weight="600" fill="#F5F1E8">Executive Metal Accessories</text>
+    <text x="1010" y="485" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="14" font-weight="600" fill="#C6A66B">Bespoke Leather Goods</text>
+    <text x="1010" y="645" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="14" font-weight="600" fill="#99958D">Custom Event Keepsakes</text>
+  </g>
+</svg>

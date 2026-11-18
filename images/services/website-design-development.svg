@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="50%" stop-color="#191919"/>
+      <stop offset="100%" stop-color="#0E0E0E"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5CCA0"/>
+      <stop offset="50%" stop-color="#C6A66B"/>
+      <stop offset="100%" stop-color="#94743C"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C6A66B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#C6A66B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <circle cx="800" cy="500" r="550" fill="url(#goldGlow)"/>
+  <path d="M0,100 L1600,100 M0,900 L1600,900 M100,0 L100,1000 M1500,0 L1500,1000" stroke="#2A2A2A" stroke-width="1" opacity="0.4"/>
+
+  <g filter="url(#subtleShadow)">
+    <rect x="260" y="180" width="1080" height="640" rx="16" fill="#181818" stroke="#2E2E2E" stroke-width="2"/>
+    <rect x="260" y="180" width="1080" height="55" rx="16" fill="#202020"/>
+    <circle cx="300" cy="208" r="6" fill="#FF5F56" opacity="0.8"/>
+    <circle cx="320" cy="208" r="6" fill="#FFBD2E" opacity="0.8"/>
+    <circle cx="340" cy="208" r="6" fill="#27C93F" opacity="0.8"/>
+    <rect x="400" y="195" width="460" height="26" rx="6" fill="#141414" stroke="#2A2A2A"/>
+    <text x="420" y="212" font-family="monospace" font-size="11" fill="#99958D">https://multicreatives.agency/website-design</text>
+    <rect x="310" y="270" width="400" height="240" rx="10" fill="#1F1F1F" stroke="#333333"/>
+    <rect x="735" y="270" width="555" height="240" rx="10" fill="#1F1F1F" stroke="#333333"/>
+    <rect x="310" y="535" width="980" height="230" rx="10" fill="#161616" stroke="#2A2A2A"/>
+    <polyline points="765,450 840,410 920,430 1000,360 1080,380 1160,320 1250,340" fill="none" stroke="url(#goldGrad)" stroke-width="3.5"/>
+    <circle cx="1160" cy="320" r="6" fill="#C6A66B"/>
+    <text x="350" y="340" font-family="Plus Jakarta Sans, sans-serif" font-size="18" font-weight="700" fill="#F5F1E8">WEBSITE ARCHITECTURE</text>
+    <text x="350" y="370" font-family="Plus Jakarta Sans, sans-serif" font-size="13" fill="#C6A66B">Sub-second rendering &amp; luxury design</text>
+  </g>
+</svg>
