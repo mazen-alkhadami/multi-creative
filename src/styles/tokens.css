@@ -1,0 +1,58 @@
+/* MULTI CREATIVES — Core Design System Tokens */
+
+:root {
+  /* Default: Luxury Dark */
+  --bg-primary: #111111;
+  --bg-secondary: #161616;
+  --bg-surface: #1C1C1C;
+  --bg-surface-elevated: #242424;
+  --bg-surface-glass: rgba(28, 28, 28, 0.75);
+
+  --text-primary: #F5F1E8;
+  --text-secondary: #99958D;
+  --text-tertiary: #6E6A63;
+  --text-inverse: #111111;
+
+  --border-subtle: #2A2A2A;
+  --border-medium: #3A3A3A;
+  --border-accent: #C6A66B;
+  --border-accent-subtle: rgba(198, 166, 107, 0.25);
+
+  --accent-gold: #C6A66B;
+  --accent-gold-hover: #D8BC84;
+  --accent-gold-active: #A8884C;
+  --accent-gold-subtle: rgba(198, 166, 107, 0.12);
+  --accent-gold-glow: 0 0 25px rgba(198, 166, 107, 0.2);
+
+  --header-bg: rgba(17, 17, 17, 0.85);
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Light Theme Mode */
+html.light,
+html[data-theme="light"] {
+  --bg-primary: #F5F1E8;
+  --bg-secondary: #EDE9DF;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #F9F7F2;
+  --bg-surface-glass: rgba(255, 255, 255, 0.85);
+
+  --text-primary: #111111;
+  --text-secondary: #6B6862;
+  --text-tertiary: #99958D;
+  --text-inverse: #F5F1E8;
+
+  --border-subtle: #E2DDCF;
+  --border-medium: #D0C9BA;
+  --border-accent: #C6A66B;
+  --border-accent-subtle: rgba(198, 166, 107, 0.35);
+
+  --accent-gold: #A8884C;
+  --accent-gold-hover: #C6A66B;
+  --accent-gold-active: #8A6E3B;
+  --accent-gold-subtle: rgba(198, 166, 107, 0.15);
+  --accent-gold-glow: 0 0 25px rgba(198, 166, 107, 0.15);
+
+  --header-bg: rgba(245, 241, 232, 0.88);
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.06);
+}

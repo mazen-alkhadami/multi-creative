@@ -1,0 +1,68 @@
+import { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "MULTI CREATIVES — Creative & Digital Solutions",
+    short_name: "MULTI CREATIVES",
+    description:
+      "Creative and digital services delivering responsive websites, custom web applications, software systems, visual identity design, printing, and promotional gifts.",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#111111",
+    theme_color: "#C6A66B",
+    lang: "ar",
+    dir: "rtl",
+    orientation: "portrait-primary",
+    icons: [
+      {
+        src: "/icons/icon-192.png",
+        sizes: "192x192",
+        type: "image/png",
+        purpose: "any",
+      },
+      {
+        src: "/icons/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "any",
+      },
+      {
+        src: "/icons/icon-maskable.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
+      },
+      {
+        src: "/icons/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    categories: ["business", "productivity", "design", "technology"],
+    shortcuts: [
+      {
+        name: "طلب خدمة | Request a Service",
+        short_name: "طلب خدمة",
+        description: "أرسل متطلبات مشروعك وتواصل معنا مباشرة",
+        url: "/request-project",
+        icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }],
+      },
+      {
+        name: "خدماتنا | Core Services",
+        short_name: "الخدمات",
+        description: "استعرض الخدمات السبع المتاحة في MULTI CREATIVES",
+        url: "/services",
+        icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }],
+      },
+      {
+        name: "تقدير النطاق | Scope Estimator",
+        short_name: "تقدير النطاق",
+        description: "تقدير مباشر للوقت والمتطلبات لمشروعك",
+        url: "/quote-builder",
+        icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }],
+      },
+    ],
+  };
+}
