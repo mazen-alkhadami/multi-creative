@@ -96,7 +96,7 @@ export async function POST(request: NextRequest) {
     const finalUrl =
       publicUrl && publicUrl.trim()
         ? publicUrl.trim()
-        : `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/${bucket}/${filePath}`;
+        : `${(process.env.NEXT_PUBLIC_SUPABASE_URL || "").trim()}/storage/v1/object/public/${bucket}/${filePath}`;
 
     return NextResponse.json({
       success: true,

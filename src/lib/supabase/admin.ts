@@ -6,8 +6,8 @@ import { createClient } from "@supabase/supabase-js";
  * NEVER expose or import this file in client-side code.
  */
 export function createAdminClient() {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://placeholder.supabase.co";
-  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "placeholder-service-role-key";
+  const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL || "https://placeholder.supabase.co").trim();
+  const serviceRoleKey = (process.env.SUPABASE_SERVICE_ROLE_KEY || "placeholder-service-role-key").trim();
 
   return createClient(supabaseUrl, serviceRoleKey, {
     auth: {
